@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
@@ -28,59 +30,77 @@
     <link rel="stylesheet" href="assets/css/Responsive-Youtube-Embed.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Timeline.css">
 </head>
 
-<body>
+<body style="background-color: #dadada;">
     <div>
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="background-color: rgba(111,230,187,0.66);filter: brightness(94%) contrast(130%);margin-bottom: 0px;margin-top: 0;">
-            <div class="container"><a class="navbar-brand text-muted" style="line-height: -53px;letter-spacing: 0;font-family: Arvo, serif;font-weight: bold;font-size: 28px;">Captier</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="background-color: rgba(72,133,252,0.68);filter: brightness(94%) contrast(130%);margin-bottom: 0px;margin-top: 0;">
+            <div class="container"><a class="navbar-brand text-dark" style="line-height: -53px;letter-spacing: 0;font-family: Arvo, serif;font-weight: bold;font-size: 28px;color: rgb(23,24,25);">Captier</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" style="font-family: Arvo, serif;">Inicio</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="Quienessomos.html" style="font-family: Arvo, serif;">Quiénes somos</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="reflexion.html" style="font-family: Arvo, serif;">Lectura</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="staff.html" style="font-family: Arvo, serif;">Staff</a></li>
-                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="lectura.html" style="font-family: Arvo, serif;">Lectura</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="recomendacion.html" style="font-family: Arvo, serif;">Recomendaciones</a></li>
                     </ul>
             </div>
     </div>
     </nav>
     </div>
-    <div class="jumbotron" style="background-image: url(&quot;assets/img/1_zlqJZr56MQVWsxdlYOG71g.jpeg&quot;);background-size: auto;background-position: top;background-repeat: no-repeat;margin-top: 84px;height: 529px;padding: 96px;margin-bottom: 35px;width: 1216px;">
-        <h1 class="display-4 text-left text-white" style="font-family: Arvo, serif;font-size: 57px;"><strong>La solución online para la familia</strong></h1>
-        <p class="text-left text-white" style="font-family: Arvo, serif;font-size: 21px;">Captier, el sitio de entretenimiento y noticias para ayudarte con los más chicos</p>
-    </div>
-    <div style="margin-top: 34px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4" style="margin-top: 0;"><iframe src="https://www.instagram.com/p/CByATpepTIK/embed" allowtransparency="true" frameborder="0" scrolling="no" width="320" height="600" style="margin-top: 0;"></iframe></div>
-                <div class="col-md-4"><iframe src="https://www.instagram.com/p/CAMARyljFn_/embed" allowtransparency="true" frameborder="0" scrolling="no" width="320" height="550"></iframe></div>
-                <div class="col-md-4"><iframe src="https://www.instagram.com/p/CBPJedKDFJA/embed" allowtransparency="true" frameborder="0" scrolling="no" width="320" height="550"></iframe></div>
+    <section id="carousel">
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item">
+                    <div class="jumbotron pulse animated hero-technology carousel-hero" style="margin-top: 84px;background-image: url(&quot;assets/img/fondo.jpg&quot;);">
+                        <h1 class="hero-title" style="font-size: 58px;font-family: Arvo, serif;"><strong>La solución online para la familia</strong><br></h1>
+                        <p class="hero-subtitle" style="font-family: Arvo, serif;font-size: 25px;margin-top: 1px;">Captier, el sitio de entretenimiento y noticias para ayudarte con los más chicos<br></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="jumbotron pulse animated hero-technology carousel-hero" style="margin-top: 84px;background-image: url(&quot;assets/img/Sin%20título-1.jpg&quot;);">
+                        <h1 class="hero-title" style="font-size: 58px;font-family: Arvo, serif;"><strong>La solución online para la familia</strong><br></h1>
+                        <p class="hero-subtitle" style="font-family: Arvo, serif;font-size: 25px;margin-top: 1px;">Captier, el sitio de entretenimiento y noticias para ayudarte con los más chicos<br></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="jumbotron pulse animated hero-technology carousel-hero" style="margin-top: 84px;background-image: url(&quot;assets/img/Sin%20título-2.jpg&quot;);">
+                        <h1 class="hero-title" style="font-size: 58px;font-family: Arvo, serif;"><strong>La solución online para la familia</strong><br></h1>
+                        <p class="hero-subtitle" style="font-family: Arvo, serif;font-size: 25px;margin-top: 1px;">Captier, el sitio de entretenimiento y noticias para ayudarte con los más chicos<br></p>
+                        <p></p>
+                    </div>
+                </div>
             </div>
+            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+            <ol
+                class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2" class="active"></li>
+                </ol>
         </div>
-    </div>
-    <div class="newsletter-subscribe" style="background-repeat: space;background-color: rgba(0,0,0,0.18);">
+    </section>
+    <div class="video-container" style="background-color: rgba(187,187,187,0.67);"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/y9WD9pQ7yg0?loop=1&amp;playlist=y9WD9pQ7yg0" width="853" height="480" style="margin-top: 80px;height: 687px;"></iframe></div>
+    <div style="background-image: url(&quot;assets/img/how-to-set-screen-time-boundaries-for-your-family.jpg&quot;);margin-top: 89px;background-repeat: repeat;margin-bottom: -22px;background-position: center;">
         <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Suscripción</h2>
-                <p class="text-center text-dark" style="color: rgb(7,8,8);">Sea el primero en recibir alerta sobre nuestras novedades y estar informado las 24 horas del día</p>
+            <div class="row" style="margin-top: -7px;">
+                <div class="col-md-6" style="margin-top: 37px;">
+                    <div class="jumbotron" style="height: 294px;margin-top: 0;background-color: rgba(233,236,239,0.8);">
+                        <h1 class="text-center" data-aos="fade-right" style="font-family: Arvo, serif;font-size: 34px;">Coronavirus e Infancia</h1>
+                        <p class="text-center" data-aos="fade-right" style="font-family: Arvo, serif;">Cómo afecta el aislamiento a los más chicos. Un ensayo escrito por estudiantes de comunicación</p>
+                        <p class="text-center"><a class="btn btn-primary text-dark" role="button" data-aos="zoom-in" style="background-color: rgb(59,231,169);font-family: Arvo, serif;" href="lectura.html">Leer</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6" style="margin-top: 37px;margin-bottom: 4px;">
+                    <div class="jumbotron" style="margin-top: 0;margin-bottom: 40px;height: 294px;background-color: rgba(233,236,239,0.8);">
+                        <h1 class="text-center" data-aos="fade-left" style="font-family: Arvo, serif;font-size: 34px;">Últimas noticias sobre educación en el país</h1>
+                        <p class="text-center" data-aos="fade-left" style="font-family: Arvo, serif;">Actualizamos nuestra página con información al instante, para que la pandemia no te encuentre desinformado</p>
+                        <p class="text-center"><a class="btn btn-primary text-center text-dark" role="button" data-aos="zoom-in" style="background-color: rgb(103,154,253);font-family: Arvo, serif;" href="lectura.html">Leer</a></p>
+                    </div>
+                </div>
             </div>
-            <form class="form-inline" method="post">
-                <div class="form-group"><input class="form-control" type="email" name="emai" placeholder="Email"></div>
-                <div class="form-group"><button class="btn btn-info text-dark" type="submit" style="background-color: rgb(29,246,169);">Suscribirse</button></div>
-            </form>
-        </div>
-    </div>
-    <div class="newsletter-subscribe" style="background-repeat: space;background-color: #ffffff;background-image: url(&quot;assets/img/displasia-de-cadera-dr-francisco0-vallejo-traumatologo-pediatra-min.jpg&quot;);background-position: left;margin-bottom: -21px;">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center text-dark" style="font-family: Arvo, serif;">Encuentre un pediatra</h2>
-            </div>
-            <form class="form-inline" method="post">
-                <div class="form-group"><input class="form-control" type="email" name="codigo postal" placeholder="Código Postal"></div>
-                <div class="form-group"><button class="btn btn-info text-dark" type="submit" style="background-color: rgb(29,246,169);">BUSCAR</button></div>
-            </form>
         </div>
     </div>
     <div style="margin-top: 15px;margin-bottom: 21px;"></div>
@@ -110,7 +130,7 @@
                     </div>
                 </div>
                 <p class="text-center" style="font-family: Arvo, serif;margin-bottom: 15px;">Trabajo realizado para la asignatura Multimedia - Dep Ciencias de la Comunicación. Facultad de Humanas. UNRC&nbsp;<br></p>
-                <p class="text-center" style="font-family: Arvo, serif;"><img src="assets/img/1.png">&nbsp;&nbsp;<a href="https://comunicampus.org/">https://comunicampus.org/</a><br></p>
+                <p class="text-center" style="font-family: Arvo, serif;"><img class="rounded-circle" src="assets/img/Sin%20título-1.png">&nbsp;&nbsp;<a href="https://comunicampus.org/">https://comunicampus.org/</a><br></p>
                 <div class="col item social" style="margin-bottom: 22px;"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-youtube-outline"></i></a><a href="#"><i class="icon ion-ios-email-outline"></i></a></div>
                 <p
                     class="text-center"></p>
